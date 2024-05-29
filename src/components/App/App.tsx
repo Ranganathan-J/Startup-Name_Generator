@@ -28,11 +28,13 @@ function App(){
             <Header/>
             <main>
                 <SearchComp keyword={keyword} handleButton={handleButtonChange} handleInput={handleInputChange}/>
-                <section>
+                <section id='generated-output'>
                     <SuggestList suggestNames={suggest}/>
                 </section>
             </main>
+            <footer>
             <Footer/>
+            </footer>           
         </div>
     )
 }

@@ -2,6 +2,7 @@ header{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 34px;  
+    position: relative;
 }
 
   @font-face {
@@ -206,13 +207,11 @@ header{
   }
   
   .typed-container {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Centers the text */
-    animation: typing 5s steps(22, end); /* Adjust the duration and steps based on your text */
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: typing 5s steps(22, end); 
   }
-  
-  /* Optionally, add a cursor animation */
   .cursor {
     display: inline-block;
     animation: blink 2s steps(1, end) infinite;
@@ -220,6 +219,26 @@ header{
   
   @keyframes blink {
     from, to { border-color: transparent }
-    50% { border-color: black; } /* Change color as needed */
+    50% { border-color: black; } 
   }
   
+
+  @media (max-width: 768px) {
+    .sign {
+       font-size: 1.5rem;
+     }
+   
+    .typed-container {
+       font-size: 1rem;
+     }
+   }
+   
+   @media (max-width: 480px) {
+    .sign {
+       font-size: 1.2rem;
+     }
+   
+    .typed-container {
+       font-size: 0.8rem;
+     }
+   }

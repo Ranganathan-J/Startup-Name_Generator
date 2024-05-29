@@ -3,4 +3,16 @@ body {
     overflow-x: hidden;
     color: #e7e9f0;
     font-family: 'Lato', sans-serif;
+    
+}
+main{
+    margin-bottom: 0;
+    bottom: 0%;
+    padding-bottom: 0px;
+    flex: 1;
+}
+
+footer{
+    padding: 20px 0; 
+    margin-top: 0;
 }
