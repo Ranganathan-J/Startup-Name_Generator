@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/startup-name-generator/static/css/main.ff65c00b.css",
+    "main.js": "/startup-name-generator/static/js/main.593227e8.js",
+    "index.html": "/startup-name-generator/index.html",
+    "main.ff65c00b.css.map": "/startup-name-generator/static/css/main.ff65c00b.css.map",
+    "main.593227e8.js.map": "/startup-name-generator/static/js/main.593227e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff65c00b.css",
+    "static/js/main.593227e8.js"
+  ]
+}
