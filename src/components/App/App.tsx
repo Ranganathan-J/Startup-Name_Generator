@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
+import Footer from '../Footer/Footer.jsx';
+import Header from '../Header/Header.jsx';
 import SearchComp from '../SearchComp/SearchComp.tsx';
 import name from '@rstacruz/startup-name-generator'
 import SuggestList from '../SuggestedNames/SuggestList.tsx';
